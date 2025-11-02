@@ -8,6 +8,8 @@ a {
 
 .header-icon {
   float: left;
+  height:auto;
+  width: 80px;
 }
 
 .header-text {
