@@ -1,0 +1,45 @@
+body {
+  margin: 20px;
+  width: 1170px;
+}
+a {
+  text-decoration: none;
+}
+.header-text {
+  float: right;
+  margin: 10px 15px;
+
+}
+
+.new {
+  background-color: #457696;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px
+}
+
+.new:hover{
+  background-color: #072657;
+}
+
+.login {
+  background-color: grey;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color:white;
+}
+
+.login:hover {
+  background-color: #3E3F40;
+}
+   
+.cart {
+  background-color: #18C97E;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white
+}
+
+.cart:hover {
+  background-color: #0A8A3F; 
+}
