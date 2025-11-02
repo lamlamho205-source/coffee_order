@@ -6,10 +6,14 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear:left;
+}
+
 .header-icon {
   float: left;
   height:auto;
-  width: 80px;
+  width: 60px;
 }
 
 .header-text {
@@ -17,6 +21,11 @@ a {
   margin: 10px 15px;
 }
 
+
+.header{
+  padding-bottom: 50px;
+  border-bottom: 1px solid 
+}
 .new {
   background-color: #457696;
   color: white;
@@ -48,4 +57,46 @@ a {
 
 .cart:hover {
   background-color: #0A8A3F; 
+}
+
+.transition {
+  height: 50px;
+  background-color: #CFCFCF;
+}
+.coffee {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+.coffee-item {
+  float: left;
+  width: 25%;
+}
+
+.food {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-top: 1px solid grey;
+}
+
+.food-item {
+  float: left;
+  width: 25%;
+}
+
+.footer {
+  width: 1170px
+  float:left;
+  font-size: 12px;
+  padding-top: 40px;
+  border-top: 1px solid #DBDBDB;
+}
+
+.footer a{
+  padding-right: 50px;
+  color: black;
 }
