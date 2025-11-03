@@ -12,8 +12,9 @@ a {
 
 .header-icon {
   float: left;
-  height: 60px;
-  width: 60px;
+  height: auto;
+  width: 50px;
+  padding-left: 20px;
 }
 
 .header-text {
@@ -23,7 +24,7 @@ a {
 
 
 .header{
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   border-bottom: 1px solid 
 }
 .new {
@@ -88,15 +89,30 @@ a {
   width: 25%;
 }
 
+p {
+  color: black;
+}
+
 .footer {
-  width: 1170px
+  width: 1170px;
   float:left;
   font-size: 12px;
   padding-top: 40px;
+  padding-bottom: 40px;
   border-top: 1px solid #DBDBDB;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .footer a{
   padding-right: 50px;
   color: black;
+}
+
+.coffee-photo {
+  height: auto;
+  width: 200px;
+  border-radius: 16px;
 }
