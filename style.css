@@ -16,7 +16,8 @@ a {
   float: left;
   height: auto;
   width: 50px;
-  padding-left: 40px;
+  margin-left: 40px;
+  border-radius: 20px;
 }
 
 .header-text {
@@ -28,12 +29,12 @@ a {
 .header{
   padding-bottom: 70px;
   position: sticky;
-  top: 0;
-  background-color: #4F4D4D;
+  top: 0px;
+  background-color: #B3B3B3;
   padding: 10px 20px;
   width: 100%; 
   height: 50px;
-  z-index: 10; 
+  z-index: 10;
 }
 
 .new {
