@@ -1,6 +1,7 @@
 
 body {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -15,7 +16,7 @@ a {
   float: left;
   height: auto;
   width: 50px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .header-text {
