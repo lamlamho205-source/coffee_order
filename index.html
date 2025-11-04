@@ -10,7 +10,7 @@
 <body>
 
     <div class='header'>
-        <a href='https://lamlamho205-source.github.io/coffee_order/''https://lamlamho205-source.github.io/coffee_order/'> <img class='header-icon' src='coffee_order/icon.png'> </a>
+        <a href='https://lamlamho205-source.github.io/coffee_order/''https://lamlamho205-source.github.io/coffee_order/'> <img class='header-icon' src='images/icon.png'> </a>
         <div class='header-text'> <a href='#' class='cart'> カート</a> </div>
         <div class='header-text'> <a href='#' class='login'> ログイン</a> </div>
         <div class='header-text'> <a href='#' class='new'> 新規登録 </a></div>
@@ -23,31 +23,31 @@
         <div class='coffee'>
             <h1> コーヒー </h1>
             <div class='coffee-item'>
-              <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'>
+              <a href="#" > <img class='coffee-photo' src='images/milk-coffee.png'>
               <p>ミルクコーヒー</p>
               <p>￥510~</p>
               </a>
             </div>
             <div class='coffee-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/cappucino.png'> 
                 <p>カプチーノ</p>
                 <p>￥455~</p>
                 </a>
             </div>
             <div class='coffee-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'>
+                <a href="#" > <img class='coffee-photo' src='images/mocha.png'>
                 <p> カフェ　モカ</p>
                 <p>￥500~</p>
                 </a>
             </div>
             <div class='coffee-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/americano.png'> 
                 <p> カフェ アメリカーノ</p>
                 <p>￥475~</p>
                 </a>
             </div>
             <div class='coffee-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/expresso.png'> 
                 <p> エスプレッソ</p>
                 <p>￥415~</p>
                 </a>
@@ -57,43 +57,43 @@
         <div class='food'>
             <h1> フード </h1>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/strawberry-cake.jpeg'> 
                 <p>ストロベリーチーズケーキ</p>
                 <p>￥475</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/basque.jpeg'> 
                 <p>バスクチーズケーキ</p>
                 <p>￥520</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/caramel-cake.jpeg'> 
                 <p> キャラメルの紅茶ケーキ</p>
                 <p>￥530</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/white-cake.jpeg'> 
                 <p> ホワイトケーキ</p>
                 <p>￥540</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/cinnamon-roll.jpeg'> 
                 <p> シナモンロール</p>
                 <p>￥420</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/donut.jpeg'> 
                 <p> シュガードーナツ</p>
                 <p>￥420</p>
                 </a>
             </div>
             <div class='food-item'>
-                <a href="#" > <img class='coffee-photo' src='cafe_latte.jpeg'> 
+                <a href="#" > <img class='coffee-photo' src='images/sandwich.jpeg'> 
                 <p> ハムチーズサンドイッチ</p>
                 <p>￥480</p>
                 </a>
@@ -103,9 +103,23 @@
               
      </div>
      <div class='footer'>
-       <a href='#'> お問い合わせ </a>
-       <a href='#'> プライバシーポリシー </a>
-       <a href='#'> 使用条件 </a>
+       <form action='#' name='contact' method='post' class='contact-form'>
+         <p> お問い合わせ </p>
+         <label for='name'>名前 
+           <p><input type='text' name='form-name' value='' required ></p>
+         </label>
+         <label for='email'>メール
+           <p><input type='text' name='form-email' value='' required ></p>
+         </label>
+         <label for='content'>お問い合わせ内容
+           <p> <textarea name='content' rows='5' value='' required> </textarea> </p>  
+         </label>
+         <input type='button' class='button' value='送信'>
+       </form>
+       <ul>
+         <a href='#'> お問い合わせ </a>
+         <a href='#'> プライバシーポリシー </a>
+         <a href='#'> 使用条件 </a>
        </ul>
      </div>
 
